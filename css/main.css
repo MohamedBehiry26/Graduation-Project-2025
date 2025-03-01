@@ -1,0 +1,368 @@
+/* ------ Start Global Styles ------ */
+:root {
+    --primary-color: #002147;
+    --secondary-color: #FFD700;
+    --text-color: #333;
+    --background-color: #F8F8F8;
+    --hover-scale: 1.05;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    scroll-behavior: smooth;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.target-section {
+    scroll-margin-top: 80px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+/* ------ Navbar Styles ------ */
+.navbar {
+    background-color: var(--primary-color) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: var(--secondary-color) !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--secondary-color) !important;
+    transform: scale(var(--hover-scale));
+}
+
+/* ------ Dropdown Menu Styles ------ */
+.dropdown-menu {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    min-width: 200px;
+    padding: 8px 0;
+}
+
+.dropdown-item {
+    color: var(--primary-color) !important;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--secondary-color) !important;
+    color: #000 !important;
+}
+
+.dropdown-menu .dropdown-menu {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    display: none;
+    min-width: 200px;
+}
+
+.dropdown-menu li:hover > .dropdown-menu {
+    display: block;
+}
+
+/* ------ Hero Section Styles ------ */
+#home {
+    height: 100vh;
+    background-image: url(../image/15-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: var(--secondary-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    font-family: "Cairo", sans-serif;
+    padding: 50px;
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* ------ Buttons Styles ------ */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(45deg, var(--secondary-color), #FFA500);
+    color: var(--primary-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(45deg, #FFA500, var(--secondary-color));
+    transform: scale(1.1);
+}
+
+/* ------ Contact Section Styles ------ */
+.contact iframe {
+    width: 100%;
+    height: 21.875rem;
+    border-radius: 8px;
+}
+
+.contact .details {
+    --gap: 0.9375rem;
+    margin-block: 1.5625rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.contact .details > div {
+    width: calc(calc(100% - var(--gap)) / 2);
+    display: flex;
+    align-items: center;
+    padding: 1.5625rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.contact .details > div:hover {
+    background-color: #e9ecef;
+}
+
+.contact .details > div h3 {
+    color: #343a40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact .details .icon {
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    background-color: #FFA500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact .details .icon i {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+/* ------ goal Styles ------ */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 24px;
+    color: #002147;
+    margin-left: 10px;
+}
+
+/* ------ vision Styles ------ */
+#color {
+    color: #002147;
+}
+
+/* ------ Footer Styles ------ */
+.footer a:hover {
+    color: var(--secondary-color) !important;
+    transform: scale(1.1);
+}
+
+
+
+/* ------ Payment Section Styles ------ */
+.payment-section {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    text-align: center;
+}
+
+.btn-fawry {
+    background-color: #f68b1f;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-fawry:hover {
+    background-color: #FFA500;
+    color: white;
+}
+
+.payment-icons {
+    color: #002147;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* ------ Engineering Department Styles ------ */
+.dept-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.study-system .card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.study-system .card:hover {
+    transform: translateY(-5px);
+}
+
+.study-system h4 {
+    font-weight: bold;
+}
+
+.study-system .table {
+    background: white;
+    border-radius: 5px;
+}
+
+.study-system .table thead {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+/* ------ MIS Department Styles ------ */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ------ News Section Styles ------ */
+.section-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.carousel {
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**/ 
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

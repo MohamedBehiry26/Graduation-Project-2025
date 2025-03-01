@@ -1,0 +1,126 @@
+{
+    "index":{
+        
+            "institute_name": "Al Wadi Higher Institutes - Obour",
+            "home": "Home",
+            "institutes": "Our Institutes",
+            "management_institute": "Institute of Management, Finance, and Information Systems",
+            "mis_department": "Information Systems Department",
+            "banking_department": "Banking and Investment Department",
+            "business_department": "Business Administration Department",
+            "accounting_department": "Accounting Department",
+            "marketing_department": "Marketing Department",
+            "engineering_institute": "Institute of Engineering and Technology",
+            "architecture_department": "Architecture Department",
+            "civil_department": "Civil Engineering Department",
+            "electrical_department": "Electrical Engineering Department",
+            "about_academy": "About the Academy",
+            "about_institutes": "About the Institutes",
+            "chairman_message": "Chairman's Message",
+            "our_goal": "Our Goal",
+            "our_vision": "Our Vision",
+            "faq": "FAQ",
+            "electronic_services": "Electronic Services",
+            "electronic_payment": "Electronic Payment",
+            "gpa_calculator": "GPA Calculator",
+            "quality_center": "Quality Assurance Center",
+            "our_news": "Our News",
+            "contact_us": "Contact Us",
+            "language": "Language",
+            "welcome": "Welcome to Al Wadi Institutes",
+            "welcome_message": "Welcome",
+            "about": "About the Institutes",
+            "contact": "Contact Us",
+            "talk": "Chairman's Message",
+            "goal": "Our Goal",
+            "vision": "Our Vision",
+            "ask": "FAQ",
+            "graduation": "Graduation Ceremony 2022",
+            "location": "Institute Location",
+            "phone": "Call Us",
+            "email": "Email",
+            "send": "Send",
+            "copyright": "All Rights Reserved - Al Wadi Higher Institute for Information Systems",
+            "chairman_text": "Dear students of Al Wadi Academy, as a new academic year dawns upon our esteemed institute, rich with a glorious history of great achievements, I am pleased to extend my greetings to all members of the institute, including faculty, staff, and students, both old and new. Greetings to all of you from the depths of my heart as we shape the future of our nation in the present. It has been my destiny to assume responsibility during this critical time, filled with significant events and pivotal changes. I am aware that the challenges ahead are numerous and difficult, but I am confident that the determination and resolve of men are measured by their ability to rise and confront these challenges to overcome them. Therefore, I call upon my brothers and esteemed colleagues, who carry the noblest mission and take pride in performing the most sacred task and highest goal, to unite and work together for the sake of the institute and the nation, and for the benefit of our students. As for you, my dear students, you are the candles that illuminate the future of this nation and the shining stars that will brighten its sky. You have every right to feel proud twice: once for being part of the greatest nation throughout the ages, and once for being part of Al Wadi Higher Institute. I also pray to Almighty God to strengthen the resolve of the workers here, for they are the salt of the earth and the unsung heroes who serve the institution with dedication and in silence. May God guide us all to what He loves and approves, and may He make unity, sincerity, love, and harmony our guiding light... He is the best Lord and the best supporter... And may every year find you all in good health.",
+            "chairman_name": "Chairman of the Board  Eng. Aya Osama Mohy El-Din",
+            "goal_title": "Our Goals at Al Wadi Institutes",
+            "goal_1": "Providing advanced academic programs that align with the latest global standards.",
+            "goal_2": "Preparing qualified graduates with the skills required for the job market.",
+            "goal_3": "Enhancing scientific research and innovation to support sustainable development.",
+            "goal_4": "Developing an educational environment that fosters creativity and entrepreneurship.",
+            "goal_5": "Building strategic partnerships with universities and major companies.",
+            "goal_6": "Strengthening the institute's role in serving the community through developmental initiatives.",
+            "vision_title": "Our Vision at Al Wadi Institutes",
+            "vision_text": "Towards leadership in higher education and scientific research to achieve sustainable development and keep pace with global developments. Al Wadi Higher Institute strives to be a distinguished academic model in providing innovative educational and research programs that keep pace with rapid changes in the job market and enhance students' skills to prepare them for a promising future. We are committed to excellence in academic quality, scientific research, and community service, with a focus on innovation and sustainability to achieve comprehensive development.",
+            "faq_title": "Frequently Asked Questions",
+            "faq_1": "What academic programs are available at Al Wadi Institute?",
+            "faq_1_answer": "Al Wadi Institute offers a range of academic programs in the fields of management, finance, engineering, and technology, including bachelor's programs in these specializations.",
+            "faq_2": "How can I apply to the institute?",
+            "faq_2_answer": "You can apply through the institute's website, where you will find all the instructions related to the application process and requirements.",
+            "faq_3": "Does the institute offer scholarships?",
+            "faq_3_answer": "Yes, Al Wadi Institute offers scholarships to outstanding students. For more details about scholarships, please visit the scholarships page on our website.",
+            "faq_4": "What are the institute's working hours?",
+            "faq_4_answer": "The institute operates from Saturday to Thursday, from 9:00 AM to 4:00 PM."
+        
+    },
+    "eng":{
+
+        
+
+        
+            "title": "Al-Wadi Al-Aly Institute of Engineering and Technology - Al-Wadi Al-Aly Institutes",
+            "description": "Al-Wadi Al-Aly Institute of Engineering and Technology - High-quality engineering education with distinguished academic standards",
+            "header_title": "Al-Wadi Al-Aly Institute of Engineering and Technology",
+            "header_subtitle": "High-quality engineering education with distinguished academic standards",
+            "button_about": "About the Institute",
+            "button_contact": "Contact Us",
+            "about_title": "About the Institute",
+            "about_content": "The Al-Wadi Al-Aly Institute of Engineering and Technology in Obour City is a leading educational institution that aims to prepare qualified engineering cadres with the latest scientific and applied technologies, to keep pace with the challenges of the era and contribute to sustainable development.",
+            "departments_title": "Academic Departments in the Institute",
+            "department_1_title": "Communications and Electrical Power Engineering",
+            "department_1_content": "Preparing students in the fields of communications and electrical power.",
+            "department_2_title": "Civil and Environmental Engineering",
+            "department_2_content": "Learning to design and implement sustainable construction projects and infrastructure.",
+            "department_3_title": "Architectural and Structural Engineering",
+            "department_3_content": "Creativity in architectural design and structural engineering with advanced technology.",
+            "dean_message_title": "Dean's Message",
+            "study_system_title": "Study System and Graduation Requirements",
+            "study_system_content": "The institute relies on the credit hour system, where the student must complete a specified number of credit hours according to their specialization.",
+            "graduation_requirements_title": "Graduation Requirements",
+            "graduation_requirements_content": "The student must have a cumulative GPA of at least 2.0 and complete all required credit hours for their specialization, including field training and graduation project.",
+            "faq_title": "Frequently Asked Questions",
+            "faq_1_question": "What academic programs are available at Al-Wadi Institute?",
+            "faq_1_answer": "Al-Wadi Institute offers a range of academic programs in the fields of management, finance, engineering, and technology, including bachelor's programs in these specializations.",
+            "faq_2_question": "How can I apply to the institute?",
+            "faq_2_answer": "You can apply through the Al-Wadi Institute website, where you will find all instructions related to the application process and requirements.",
+            "faq_3_question": "Does the institute offer scholarships?",
+            "faq_3_answer": "Yes, Al-Wadi Institute provides scholarships for outstanding students. For more details about scholarships, please visit the scholarships page on our website.",
+            "faq_4_question": "What are the institute's working hours?",
+            "faq_4_answer": "The institute operates from Sunday to Thursday, from 9:00 AM to 4:00 PM.",
+            "contact_title": "Contact Us",
+            "contact_address": "The institute is located in Obour City, Arabi Association District, Northern 8th Road (Gate 7), Qalyubia Governorate.",
+            "contact_phone": "01060398889",
+            "contact_email": "info@sva.edu.eg",
+            "footer_copyright": "© 2025 All rights reserved - Al-Wadi Al-Aly Institute of Information Systems",
+            "social_youtube": "https://www.youtube.com/channel/UCf7xKfnBiLcs316fC62Xh1Q",
+            "social_linkedin": "https://www.linkedin.com/company/engsva/",
+            "social_facebook": "https://www.facebook.com/profile.php?id=100063768531882&locale=ar_AR"
+          
+
+    },
+    "gpa":{
+
+    },
+    "mis":{
+
+    },
+    "news":{
+
+    },
+    "payment":{
+
+    },
+    "Quality":{
+
+    }
+}
