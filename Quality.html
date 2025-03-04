@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="مركز ضمان الجودة في معاهد الوادي العليا - بالعبور">
     <meta name="keywords" content="معاهد الوادي, ضمان الجودة, التعليم, العبور">
-    <title>مركز ضمان الجودة - معاهد الوادى العليا</title>
+    <title data-translate="quality_center_title">مركز ضمان الجودة - معاهد الوادى العليا</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
     <!-- Fontawesome -->
@@ -14,76 +14,98 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
-        <div class="container pt-0">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img class="me-2" src="./image/591d970c8f6b4.png" alt="شعار معاهد الوادي العليا" style="height: 50px;">
-                معاهد الوادى العليا - بالعبور
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">الصفحة الرئيسية</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="mainDropdown" role="button" data-bs-toggle="dropdown">
-                            معاهدنا
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown dropend">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">معهد الإدارة والمالية ونظم المعلومات</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="mis.html">قسم نظم المعلومات</a></li>
-                                    <li><a class="dropdown-item" href="mis.html">قسم علوم مصرفية واستثمار</a></li>
-                                    <li><a class="dropdown-item" href="mis.html">قسم إدارة أعمال</a></li>
-                                    <li><a class="dropdown-item" href="mis.html">قسم المحاسبة</a></li>
-                                    <li><a class="dropdown-item" href="mis.html">قسم التسويق</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown dropend">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">معهد الهندسة والتكنولوجيا</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="eng.html">قسم الهندسة المعمارية</a></li>
-                                    <li><a class="dropdown-item" href="eng.html">قسم الهندسة المدنية</a></li>
-                                    <li><a class="dropdown-item" href="eng.html">قسم الهندسة الكهربائية</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">عن الأكاديمية</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.html#about">نبذة عن المعاهد</a></li>
-                            <li><a class="dropdown-item" href="index.html#talk">كلمة رئيس مجلس الإدارة</a></li>
-                            <li><a class="dropdown-item" href="index.html#goal">هدفنا</a></li>
-                            <li><a class="dropdown-item" href="index.html#vision">رؤيتنا</a></li>
-                            <li><a class="dropdown-item" href="index.html#ask">الأسئلة الشائعة</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">الخدمات الإلكترونية</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="payment.html">الدفع الإلكتروني</a></li>
-                            <li><a class="dropdown-item" href="gpa.html">حساب المعدل التراكمي</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="Quality.html">مركز ضمان الجودة</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">اخبارنا</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا </a></li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow ">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-nowrap align-items-center justify-content-center pt-0 mx-auto ">
+                <div>
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img class="me-2" src="./image/591d970c8f6b4.png" alt="شعار معاهد الوادى العليا" style="height: 50px;">
+                        <span data-translate="institute_name">معاهد الوادى العليا - بالعبور</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-label="تبديل التنقل">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-translate="home">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="mainDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="our_institutes">
+                                معاهدنا
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                                <li class="dropdown dropend">
+                                    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" data-translate="management_institute">
+                                        معهد الإدارة والمالية ونظم المعلومات
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="mis.html" data-translate="mis_department">قسم نظم المعلومات</a></li>
+                                        <li><a class="dropdown-item" href="mis.html" data-translate="banking_department">قسم علوم مصرفية واستثمار</a></li>
+                                        <li><a class="dropdown-item" href="mis.html" data-translate="business_department">قسم إدارة أعمال</a></li>
+                                        <li><a class="dropdown-item" href="mis.html" data-translate="accounting_department">قسم المحاسبة</a></li>
+                                        <li><a class="dropdown-item" href="mis.html" data-translate="marketing_department">قسم التسويق</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropend">
+                                    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" data-translate="engineering_institute">
+                                        معهد الهندسة والتكنولوجيا
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="eng.html" data-translate="architecture_department">قسم الهندسة المعمارية</a></li>
+                                        <li><a class="dropdown-item" href="eng.html" data-translate="civil_department">قسم الهندسة المدنية</a></li>
+                                        <li><a class="dropdown-item" href="eng.html" data-translate="electrical_department">قسم الهندسة الكهربائية</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="about_academy">
+                                عن الأكاديمية
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html#about" data-translate="about_institutes">نبذة عن المعاهد</a></li>
+                                <li><a class="dropdown-item" href="index.html#talk" data-translate="chairman_message">كلمة رئيس مجلس الإدارة</a></li>
+                                <li><a class="dropdown-item" href="index.html#goal" data-translate="our_goal">هدفنا</a></li>
+                                <li><a class="dropdown-item" href="index.html#vision" data-translate="our_vision">رؤيتنا</a></li>
+                                <li><a class="dropdown-item" href="index.html#ask" data-translate="faq">الأسئلة الشائعة</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="electronic_services">
+                                الخدمات الإلكترونية
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="payment.html" data-translate="electronic_payment">الدفع الإلكتروني</a></li>
+                                <li><a class="dropdown-item" href="gpa.html" data-translate="gpa_calculator">حساب المعدل التراكمي</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="Quality.html" data-translate="quality_center">مركز ضمان الجودة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html" data-translate="our_news">اخبارنا</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-translate="contact_us">تواصل معنا</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown">
+                                <span data-translate="language">اللغة</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" data-lang="ar">العربية</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <!--الجودة -->
-    <div class="container my-5">
+    <div class="container my-5 pt-5">
         <!-- قسم مركز ضمان الجودة -->
         <div class="text-center mb-5">
-            <h2 class="section-title"><i class="fas fa-shield-alt"></i> مركز ضمان الجودة</h2>
-            <p class="text-muted fs-5">يهدف مركز ضمان الجودة إلى تحقيق أعلى معايير الجودة في التعليم والخدمات المقدمة في المعهد.</p>
+            <h2 class="section-title" data-translate="quality_center_section_title"><i class="fas fa-shield-alt"></i> مركز ضمان الجودة</h2>
+            <p class="text-muted fs-5" data-translate="quality_center_section_description">يهدف مركز ضمان الجودة إلى تحقيق أعلى معايير الجودة في التعليم والخدمات المقدمة في المعهد.</p>
         </div>
 
         <!-- البطاقات لعرض أهداف مركز ضمان الجودة -->
@@ -94,8 +116,8 @@
                         <div class="icon-box mb-3">
                             <i class="fas fs-4 fa-cogs"></i>
                         </div>
-                        <h4 class="card-title">تحقيق معايير الجودة</h4>
-                        <p class="card-text">نعمل على تحسين مستمر في أنظمة التعليم والخدمات لضمان تقديم تعليم متميز يتوافق مع المعايير العالمية.</p>
+                        <h4 class="card-title" data-translate="quality_goal_one">تحقيق معايير الجودة</h4>
+                        <p class="card-text" data-translate="quality_goal_one_description">نعمل على تحسين مستمر في أنظمة التعليم والخدمات لضمان تقديم تعليم متميز يتوافق مع المعايير العالمية.</p>
                     </div>
                 </div>
             </div>
@@ -106,8 +128,8 @@
                         <div class="icon-box mb-3">
                             <i class="fas fs-4 fa-users"></i>
                         </div>
-                        <h4 class="card-title">دعم التطوير المستدام</h4>
-                        <p class="card-text">نساعد على تحقيق التنمية المستدامة من خلال برامج مستمرة لتدريب الطلاب والموظفين على مهارات جديدة ومتطورة.</p>
+                        <h4 class="card-title" data-translate="quality_goal_two">دعم التطوير المستدام</h4>
+                        <p class="card-text" data-translate="quality_goal_two_description">نساعد على تحقيق التنمية المستدامة من خلال برامج مستمرة لتدريب الطلاب والموظفين على مهارات جديدة ومتطورة.</p>
                     </div>
                 </div>
             </div>
@@ -118,8 +140,8 @@
                         <div class="icon-box mb-3">
                             <i class="fas fs-4 fa-chart-line"></i>
                         </div>
-                        <h4 class="card-title">قياس الأداء والمراجعة</h4>
-                        <p class="card-text">نقوم بمراجعة الأداء الأكاديمي والإداري بشكل دوري لضمان التطوير المستمر وتحقيق الأهداف المرجوة.</p>
+                        <h4 class="card-title" data-translate="quality_goal_three">قياس الأداء والمراجعة</h4>
+                        <p class="card-text" data-translate="quality_goal_three_description">نقوم بمراجعة الأداء الأكاديمي والإداري بشكل دوري لضمان التطوير المستمر وتحقيق الأهداف المرجوة.</p>
                     </div>
                 </div>
             </div>
@@ -127,8 +149,8 @@
 
         <!-- نص توضيحي عن مركز ضمان الجودة -->
         <div class="text-center mt-5">
-            <h3 class="fw-bold">رسالتنا</h3>
-            <p class="fs-5 text-muted">يهدف مركز ضمان الجودة في معهد الوادي إلى تحقيق أفضل معايير الجودة في جميع الأنشطة التعليمية والإدارية، وضمان أن جميع برامجنا الأكاديمية تتمتع بالكفاءة العالية التي تلبي احتياجات الطلاب وسوق العمل.</p>
+            <h3 class="fw-bold" data-translate="quality_mission_title">رسالتنا</h3>
+            <p class="fs-5 text-muted" data-translate="quality_mission_description">يهدف مركز ضمان الجودة في معهد الوادي إلى تحقيق أفضل معايير الجودة في جميع الأنشطة التعليمية والإدارية، وضمان أن جميع برامجنا الأكاديمية تتمتع بالكفاءة العالية التي تلبي احتياجات الطلاب وسوق العمل.</p>
         </div>
     </div>
 
@@ -136,8 +158,8 @@
     <section class="container my-5 target-section" id="ask">
         <!-- قسم الأسئلة الشائعة -->
         <div class="text-center mb-5">
-            <h2 class="section-title"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</h2>
-            <p class="text-muted fs-5">في هذا القسم، يمكنك العثور على إجابات لبعض الأسئلة التي قد تكون لديك حول معهد الوادي وبرامجه.</p>
+            <h2 class="section-title" data-translate="faq_title"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</h2>
+            <p class="text-muted fs-5" data-translate="faq_description">في هذا القسم، يمكنك العثور على إجابات لبعض الأسئلة التي قد تكون لديك حول معهد الوادي وبرامجه.</p>
         </div>
 
         <!-- Accordion لتقديم الأسئلة الشائعة -->
@@ -145,12 +167,12 @@
             <!-- سؤال 1 -->
             <div class="accordion-item faq-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-translate="faq_question_one">
                         ما هي البرامج الأكاديمية المتوفرة في معهد الوادي؟
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
+                    <div class="accordion-body" data-translate="faq_answer_one">
                         يقدم معهد الوادي مجموعة من البرامج الأكاديمية في مجالات الإدارة والمالية والهندسة والتكنولوجيا، بما في ذلك برامج البكالوريوس في هذه التخصصات.
                     </div>
                 </div>
@@ -159,12 +181,12 @@
             <!-- سؤال 2 -->
             <div class="accordion-item faq-item">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-translate="faq_question_two">
                         كيف يمكنني التقديم في المعهد؟
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
+                    <div class="accordion-body" data-translate="faq_answer_two">
                         يمكنك التقديم عبر الموقع الإلكتروني لمعهد الوادي، حيث ستجد كافة التعليمات المتعلقة بعملية التقديم والمتطلبات.
                     </div>
                 </div>
@@ -173,12 +195,12 @@
             <!-- سؤال 3 -->
             <div class="accordion-item faq-item">
                 <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-translate="faq_question_three">
                         هل تقدم المعهد منحًا دراسية؟
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
+                    <div class="accordion-body" data-translate="faq_answer_three">
                         نعم، يوفر معهد الوادي منحًا دراسية للطلاب المتميزين. لمزيد من التفاصيل حول المنح الدراسية، يرجى زيارة صفحة المنح على موقعنا.
                     </div>
                 </div>
@@ -187,12 +209,12 @@
             <!-- سؤال 4 -->
             <div class="accordion-item faq-item">
                 <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" data-translate="faq_question_four">
                         ما هي ساعات العمل في المعهد؟
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
+                    <div class="accordion-body" data-translate="faq_answer_four">
                         المعهد يعمل من الأحد إلى الخميس، من الساعة 9:00 صباحًا حتى 4:00 مساءً.
                     </div>
                 </div>
@@ -204,9 +226,9 @@
     <section class="contact container py-5 target-section" id="contact">
         <div class="row">
             <div class="col-lg-12 mt-4">
-                <h1 class="text-center mt-1"><i class="fa-solid fa-paper-plane"></i> تواصل معنا</h1>
-                <h2 class="text-warning"> <i class="fa-solid fa-location-dot"></i> موقع المعهد</h2>
-                <p>يقع المعهد في مدينة العبور، حي جمعية عرابي، طريق 8 الشمالي (بوابة 7)، بمحافظة القليوبية.</p>
+                <h1 class="text-center mt-1" data-translate="contact_title"><i class="fa-solid fa-paper-plane"></i> تواصل معنا</h1>
+                <h2 class="text-warning" data-translate="location_title"> <i class="fa-solid fa-location-dot"></i> موقع المعهد</h2>
+                <p data-translate="location_description">يقع المعهد في مدينة العبور، حي جمعية عرابي، طريق 8 الشمالي (بوابة 7)، بمحافظة القليوبية.</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13788.3415961236!2d31.529511112841806!3d30.234641100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458760ff4313c63%3A0x9121ddd13d3d5ba8!2z2YXYudmH2K8g2KfZhNmI2KfYr9mJINin2YTYudin2YTZiiDZhNmE2KfYr9in2LHYqSDZiNmG2LjZhSDYp9mE2YXYudmE2YjZhdin2Ko!5e0!3m2!1sar!2seg!4v1739561375896!5m2!1sar!2seg" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="col-lg-12">
@@ -216,8 +238,8 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div>
-                            <h3>اتصل بنا</h3>
-                            <p>01060398889</p>
+                            <h3 data-translate="contact_phone_title">اتصل بنا</h3>
+                            <p data-translate="contact_phone_number">01060398889</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center p-6 bg-light shadow-sm rounded">
@@ -225,8 +247,8 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div>
-                            <h3>البريد الإلكتروني</h3>
-                            <p>info@sva.edu.eg</p>
+                            <h3 data-translate="contact_email_title">البريد الإلكتروني</h3>
+                            <p data-translate="contact_email_address">info@sva.edu.eg</p>
                         </div>
                     </div>
                 </div>
@@ -234,11 +256,11 @@
         </div>
         <form class="mt-4">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="الاسم" required>
-                <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                <input type="text" class="form-control" placeholder="الاسم" required data-translate="name_placeholder">
+                <input type="email" class="form-control" placeholder="البريد الإلكتروني" required data-translate="email_placeholder">
             </div>
-            <textarea class="form-control mb-3" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
-            <button type="submit" class="btn px-4">إرسال</button>
+            <textarea class="form-control mb-3" rows="5" placeholder="اكتب رسالتك هنا" required data-translate="message_placeholder"></textarea>
+            <button type="submit" class="btn px-4" data-translate="submit_button">إرسال</button>
         </form>
     </section>
 
@@ -248,7 +270,7 @@
             <a href="/" class="me-2 text-decoration-none">
                 <i class="fa-solid fa-building" style="font-size: 24px; color: #FFD700;"></i>
             </a>
-            <span>&copy; 2025 جميع الحقوق محفوظة - معهد الوادي العالي لنظم المعلومات</span>
+            <span>&copy; 2025 <span data-translate="footer_rights">جميع الحقوق محفوظة - معهد الوادي العالي لنظم المعلومات</span></span>
         </div>
     
         <ul class="nav list-unstyled d-flex mb-0">
